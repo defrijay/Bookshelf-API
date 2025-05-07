@@ -149,11 +149,16 @@ Bookshelf API adalah sebuah RESTful API sederhana untuk mengelola koleksi buku. 
 
 ## 📁 Struktur Folder
 ```bash
-.
-├── books.js         # Data sementara (in-memory)
-├── handler.js       # Logika setiap endpoint
-├── routes.js        # Daftar rute
-└── server.js        # Konfigurasi dan inisialisasi server
+└──.
+    └──node_modules
+    └──src
+        ├── books.js         # Data sementara (in-memory)
+        ├── handler.js       # Logika setiap endpoint
+        ├── routes.js        # Daftar rute
+        └── server.js        # Konfigurasi dan inisialisasi server
+    └──package-lock.json  
+    └──package.json  
+    └──README.md  
 
 ```
 
